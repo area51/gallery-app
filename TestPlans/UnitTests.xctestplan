@@ -1,0 +1,52 @@
+{
+  "configurations" : [
+    {
+      "id" : "76AC28DD-5132-4E06-AFA7-039DF5D7C174",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:..\/Modules\/Commons",
+        "identifier" : "CommonsTests",
+        "name" : "CommonsTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/Modules\/Network",
+        "identifier" : "NetworkTests",
+        "name" : "NetworkTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/Modules\/ArticClient",
+        "identifier" : "ArticClientTests",
+        "name" : "ArticClientTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/Modules\/AppCore",
+        "identifier" : "AppCoreTests",
+        "name" : "AppCoreTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/Modules\/Presentation",
+        "identifier" : "PresentationTests",
+        "name" : "PresentationTests"
+      }
+    }
+  ],
+  "version" : 1
+}
