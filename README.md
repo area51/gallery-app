@@ -84,7 +84,7 @@ extension SampleScene {
     }
 }
 
-extension ArtworkList {
+extension SampleScene {
     // Optional, I like to use.
     // I usually make those CustomStringCovertible for logging convinience.
     enum ViewState: Equatable {
@@ -106,7 +106,7 @@ extension SampleScene {
     }
 }
 
-extension ArtworkList {
+extension SampleScene {
     // This acts like the Coordinator on UIKit MVC.
     // I use the `ViewCoordinator` protocol to facilitate mocking and testing.
     // Contains a weak reference to data model so the views can observe it.
@@ -142,7 +142,7 @@ extension ArtworkList {
     }
 }
 
-extension ArtworkList {
+extension SampleScene {
     // Finally the `ContentView` which is the actual View if we were talking about MVC.
     // Views here can react on dataModel changes and perform `Actions` previously defined.
     struct ContentView: View {
