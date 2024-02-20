@@ -64,14 +64,14 @@ This is where the views and coordinators are created.
 
 There is a dependency on swift-collections, not needed, could have handled very easily the api returning repeated artworks in different pages but felt cleaner with Apples OrderedSet. Guess it's a nice dependency.
 
-If we call each app screen a scene, we have the Artwork scene and the Artist Details scene.
+If we call each app screen a `Scene`, we have the Artwork scene and the Artist Details scene.
 
 Those are defined as enuns that contain `Actions`, a `DataModel`, possibly another enum with view states, the `Coordinator` and the `ContentView`.
 
 `ViewCoordinators` can call other `ViewCoordinators` and be composable.
 Check how `ContentCoordinator` handles the coordinators for Artwork and Artist.
 
-Some explanation of how the Coordinator or Scenes work. Naming is something I'm still working on.
+Some explanation of how the Coordinator/Scenes work. Naming is something I'm still working on.
 
 ```swift
 
